@@ -1,0 +1,15 @@
+{% extends 'startup/base.html' %}
+{% block title %} Directories list {% endblock %}
+
+{% block content %}
+
+    {% for item in object_list %}
+        <p>
+            {# <a href="{% url 'directory-detail' pk=item.id %}">{{item.name}}</a> #}
+            <a href="{{ item.get_absolute_url }}">{{item.name}}</a>
+        </p>
+    {% empty %}
+        <p>موردی یافت نشد</p>
+    {% endfor %}
+
+{% endblock %}

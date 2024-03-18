@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-11 13:10+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: activity/apps.py:8 activity/models.py:17
+msgid "Comment"
+msgstr "دیدگاه"
+
+#: activity/models.py:8
+#, fuzzy
+#| msgid "description"
+msgid "caption"
+msgstr "توضیحات"
+
+#: activity/models.py:10
+msgid "user"
+msgstr "کاربر"
+
+#: activity/models.py:12
+#, fuzzy
+#| msgid "Directory"
+msgid "directory"
+msgstr "فروشگاه"
+
+#: activity/models.py:14
+msgid "reply_to"
+msgstr "پاسخ به"
+
+#: activity/models.py:18
+msgid "Comments"
+msgstr "دیدگاه‌ها"
+
+#: directory/apps.py:8 directory/models.py:58
+msgid "Directory"
+msgstr "فروشگاه"
+
+#: directory/models.py:15 directory/models.py:44
+msgid "name"
+msgstr "نام"
+
+#: directory/models.py:16 directory/models.py:46
+msgid "logo"
+msgstr "لوگو"
+
+#: directory/models.py:18
+msgid "parent"
+msgstr "والد"
+
+#: directory/models.py:19 directory/models.py:49
+msgid "is_active"
+msgstr "وضعیت"
+
+#: directory/models.py:20 directory/models.py:50
+msgid "created_time"
+msgstr "تاریخ ایجاد"
+
+#: directory/models.py:21 directory/models.py:51
+msgid "modified_time"
+msgstr "تاریخ ویرایش"
+
+#: directory/models.py:27
+msgid "Category"
+msgstr "دسته‌بندی"
+
+#: directory/models.py:28 directory/models.py:52 directory/models.py:74
+msgid "Categories"
+msgstr "دسته‌بندی‌ها"
+
+#: directory/models.py:38 directory/models.py:59
+msgid "Directories"
+msgstr "فروشگاه‌ها"
+
+#: directory/models.py:45
+msgid "slug"
+msgstr "نامک"
+
+#: directory/models.py:47
+msgid "description"
+msgstr "توضیحات"
+
+#: directory/models.py:48
+msgid "link"
+msgstr "لینک"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgid "categories"
+#~ msgstr "دسته‌بندی‌ها"
+
+#~ msgid "is active"
+#~ msgstr "وضعیت"

@@ -1,0 +1,23 @@
+{% extends 'startup/base.html' %}
+{% block title %} Categories list {% endblock %}
+
+{% block content %}
+
+    {% for item in object_list %}
+        <p>
+            <a href="{{ item.get_absolute_url }}">{{item.name}}</a>
+            {% for child in item.children.all %}
+                <p>
+                    --> <a href="{{ child.get_absolute_url }}">{{child.name}}</a>
+                    {% for child1 in child.children.all %}
+                        <p>--> --> <a href="{{ child1.get_absolute_url }}">{{child1.name}}</a></p>
+                    {% endfor %}
+                </p>
+
+            {% endfor %}
+        </p>
+    {% empty %}
+        <p>موردی یافت نشد</p>
+    {% endfor %}
+
+{% endblock %}
